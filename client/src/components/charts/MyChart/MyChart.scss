@@ -1,0 +1,17 @@
+.MyChart {
+    
+    section.charts{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+
+        article{
+            width: 45%;
+            min-width: 38em;
+
+            p{
+                // max-width: 40em;
+            }
+        }
+    }
+}
