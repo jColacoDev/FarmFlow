@@ -31,10 +31,10 @@ Adafruit_BME680 bme; // I2C
 ////// ------------ ///////////// Soil7 Constants
 const byte soil7_inquiry_frame[] = {0x01,0x03, 0x00, 0x00, 0x00, 0x07, 0x04, 0x08};
 ////// ------------ ///////////// Wifi Constants
-const char* ssid     = "Querubim";
-const char* password = "596sVe7jxJ";
-String serverName = "https://jcolaco.dev/api/sensors";
-String apiKeyValue = "tPmAT5Ab3j7F9";
+const char* ssid     = "xxx";
+const char* password = "xxx";
+String serverName = "xxx";
+String apiKeyValue = "xxx";
 ////// ------------ ///////////// ------------ ///////------------ /////// Variables
 ////// ------------ ///////////// Soil7 vars
 byte values[19];
